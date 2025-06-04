@@ -1,0 +1,4 @@
+composer.json linguist-language=PHP
+*.php linguist-language=PHP
+*.css linguist-language=CSS
+* linguist-detectable=false
