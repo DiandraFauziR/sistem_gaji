@@ -1,0 +1,157 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar {
+    background-color: #292b2d;
+}
+
+.sidebar .nav-item {
+    padding: 0px 15px;
+    margin: 3px 0;
+    border-radius: 5px;
+}
+
+.sidebar .nav-item:hover {
+    background-color: #343a40;
+}
+
+.sidebar .nav-item .active {
+    background-color: #0d6efd;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.table th {
+    white-space: nowrap;
+}
+
+.rounded-circle {
+    object-fit: cover;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        min-height: auto;
+    }
+    .col-md-10 {
+        padding: 15px;
+    }
+}
+
+
+
+.kartu-karyawan {
+    width: 188px;
+    margin: 10px;
+}
+.foto-karyawan {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Detail Jabatan */
+.card-header h5 {
+    margin-bottom: 0;
+}
+
+.dl-horizontal dt {
+    float: left;
+    width: 160px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+.dl-horizontal dd {
+    margin-left: 180px;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .dl-horizontal dt {
+        float: none;
+        width: auto;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+    
+    .dl-horizontal dd {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+}
+
+.text-muted {
+    color: #6c757d;
+    font-style: italic;
+}
+
+/* Form styling */
+.form-control:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Button spacing */
+.btn {
+    margin-right: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .d-flex.justify-content-between {
+        flex-direction: column;
+    }
+    
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* footer */
+.simple-footer {
+            background: #2c3e50;
+            color: white;
+            padding: 25px 0;
+            text-align: center;
+            border-top: 4px solid #3498db;
+        }
+        .social-icons {
+            margin: 15px 0;
+        }
+        .social-icon {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border-radius: 50%;
+            margin: 0 8px;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+        .social-icon:hover {
+            background: #3498db;
+            transform: translateY(-3px);
+        }
+        .copyright {
+            font-size: 14px;
+            opacity: 0.8;
+            margin-top: 10px;
+        }
+        .company-name {
+            color: #3498db;
+            font-weight: bold;
+        }
